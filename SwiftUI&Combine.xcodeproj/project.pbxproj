@@ -12,6 +12,7 @@
 		BDBAAFEC2822918A004A5214 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBAAFEB2822918A004A5214 /* Assets.xcassets */; };
 		BDBAAFEF2822918A004A5214 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBAAFEE2822918A004A5214 /* Preview Assets.xcassets */; };
 		BDBAAFF6282291AA004A5214 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBAAFF5282291AA004A5214 /* UserViewModel.swift */; };
+		BDBAAFF92822AF3E004A5214 /* Navajo-Swift in Frameworks */ = {isa = PBXBuildFile; productRef = BDBAAFF82822AF3E004A5214 /* Navajo-Swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDBAAFF92822AF3E004A5214 /* Navajo-Swift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +88,9 @@
 			dependencies = (
 			);
 			name = "SwiftUI&Combine";
+			packageProductDependencies = (
+				BDBAAFF82822AF3E004A5214 /* Navajo-Swift */,
+			);
 			productName = "SwiftUI&Combine";
 			productReference = BDBAAFE428229189004A5214 /* SwiftUI&Combine.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +119,9 @@
 				Base,
 			);
 			mainGroup = BDBAAFDB28229189004A5214;
+			packageReferences = (
+				BDBAAFF72822AF3E004A5214 /* XCRemoteSwiftPackageReference "Navajo-Swift" */,
+			);
 			productRefGroup = BDBAAFE528229189004A5214 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -345,6 +353,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BDBAAFF72822AF3E004A5214 /* XCRemoteSwiftPackageReference "Navajo-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Wistas23/Navajo-Swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BDBAAFF82822AF3E004A5214 /* Navajo-Swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDBAAFF72822AF3E004A5214 /* XCRemoteSwiftPackageReference "Navajo-Swift" */;
+			productName = "Navajo-Swift";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BDBAAFDC28229189004A5214 /* Project object */;
 }
