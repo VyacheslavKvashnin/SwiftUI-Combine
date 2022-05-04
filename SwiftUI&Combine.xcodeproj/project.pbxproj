@@ -54,10 +54,10 @@
 			isa = PBXGroup;
 			children = (
 				BDBAAFE728229189004A5214 /* SwiftUI_CombineApp.swift */,
+				BDBAAFF5282291AA004A5214 /* UserViewModel.swift */,
 				BDBAAFE928229189004A5214 /* ContentView.swift */,
 				BDBAAFEB2822918A004A5214 /* Assets.xcassets */,
 				BDBAAFED2822918A004A5214 /* Preview Content */,
-				BDBAAFF5282291AA004A5214 /* UserViewModel.swift */,
 			);
 			path = "SwiftUI&Combine";
 			sourceTree = "<group>";

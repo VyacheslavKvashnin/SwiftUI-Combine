@@ -8,9 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var userViewModel = UserViewModel()
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Form {
+            TextField("Enter Your Name", text: $userViewModel.userName)
+            
+            Section {
+                SecureField("Enter Your Password", text: $userViewModel.password)
+                
+                SecureField("Enter Your Password Again", text: $userViewModel.passwordAgain)
+            }
+            
+            Button {
+                
+            } label: {
+                Text("Sing Up")
+            }.disabled(!userViewModel.isValid)
+        }
     }
 }
 
