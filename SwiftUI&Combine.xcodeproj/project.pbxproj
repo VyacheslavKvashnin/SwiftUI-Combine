@@ -11,6 +11,7 @@
 		BDBAAFEA28229189004A5214 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBAAFE928229189004A5214 /* ContentView.swift */; };
 		BDBAAFEC2822918A004A5214 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBAAFEB2822918A004A5214 /* Assets.xcassets */; };
 		BDBAAFEF2822918A004A5214 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBAAFEE2822918A004A5214 /* Preview Assets.xcassets */; };
+		BDBAAFF6282291AA004A5214 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBAAFF5282291AA004A5214 /* UserViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		BDBAAFE928229189004A5214 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDBAAFEB2822918A004A5214 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDBAAFEE2822918A004A5214 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDBAAFF5282291AA004A5214 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				BDBAAFE928229189004A5214 /* ContentView.swift */,
 				BDBAAFEB2822918A004A5214 /* Assets.xcassets */,
 				BDBAAFED2822918A004A5214 /* Preview Content */,
+				BDBAAFF5282291AA004A5214 /* UserViewModel.swift */,
 			);
 			path = "SwiftUI&Combine";
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDBAAFEA28229189004A5214 /* ContentView.swift in Sources */,
+				BDBAAFF6282291AA004A5214 /* UserViewModel.swift in Sources */,
 				BDBAAFE828229189004A5214 /* SwiftUI_CombineApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
